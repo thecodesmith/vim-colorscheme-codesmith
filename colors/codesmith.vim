@@ -43,7 +43,7 @@ hi Float        ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#6897bb guibg
 hi Function     ctermfg=140  ctermbg=NONE cterm=NONE         guifg=#ffc66d guibg=NONE    gui=bold
 hi Identifier   ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Keyword      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
-hi Label        ctermfg=143  ctermbg=NONE cterm=NONE         guifg=#a5c25c guibg=NONE    gui=NONE
+hi Label        ctermfg=251  ctermbg=NONE cterm=NONE         guifg=#a5c25c guibg=NONE    gui=NONE
 hi NonText      ctermfg=250  ctermbg=236  cterm=NONE         guifg=#bfbfbf guibg=#313233 gui=NONE
 hi Number       ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#6897bb guibg=NONE    gui=NONE
 hi Operator     ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
