@@ -14,7 +14,7 @@ hi Visual       ctermfg=NONE ctermbg=24   cterm=NONE         guifg=NONE    guibg
 hi CursorLine   ctermfg=NONE ctermbg=237  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=237  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
 hi ColorColumn  ctermfg=NONE ctermbg=237  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
-hi LineNr       ctermfg=247  ctermbg=236  cterm=NONE         guifg=#6a7179 guibg=#38393b gui=NONE
+hi LineNr       ctermfg=247  ctermbg=235  cterm=NONE         guifg=#6a7179 guibg=#38393b gui=NONE
 hi VertSplit    ctermfg=59   ctermbg=59   cterm=NONE         guifg=#505458 guibg=#505458 gui=NONE
 hi MatchParen   ctermfg=172  ctermbg=NONE cterm=underline    guifg=#cc7832 guibg=NONE    gui=underline
 hi StatusLine   ctermfg=251  ctermbg=59   cterm=bold         guifg=#a9b7c6 guibg=#505458 gui=bold
@@ -44,7 +44,7 @@ hi Function     ctermfg=140  ctermbg=NONE cterm=NONE         guifg=#ffc66d guibg
 hi Identifier   ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Keyword      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Label        ctermfg=251  ctermbg=NONE cterm=NONE         guifg=#a5c25c guibg=NONE    gui=NONE
-hi NonText      ctermfg=250  ctermbg=236  cterm=NONE         guifg=#bfbfbf guibg=#313233 gui=NONE
+hi NonText      ctermfg=250  ctermbg=235  cterm=NONE         guifg=#bfbfbf guibg=#313233 gui=NONE
 hi Number       ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#6897bb guibg=NONE    gui=NONE
 hi Operator     ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi PreProc      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
