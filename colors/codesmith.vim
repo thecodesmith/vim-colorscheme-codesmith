@@ -16,7 +16,7 @@ hi CursorColumn ctermfg=NONE ctermbg=237  cterm=NONE         guifg=NONE    guibg
 hi ColorColumn  ctermfg=NONE ctermbg=237  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
 hi LineNr       ctermfg=244  ctermbg=NONE cterm=NONE         guifg=#6a7179 guibg=#38393b gui=NONE
 hi VertSplit    ctermfg=59   ctermbg=59   cterm=NONE         guifg=#505458 guibg=#505458 gui=NONE
-hi MatchParen   ctermfg=172  ctermbg=NONE cterm=underline    guifg=#cc7832 guibg=NONE    gui=underline
+hi MatchParen   ctermfg=185  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=underline
 hi StatusLine   ctermfg=251  ctermbg=59   cterm=bold         guifg=#a9b7c6 guibg=#505458 gui=bold
 hi StatusLineNC ctermfg=251  ctermbg=59   cterm=NONE         guifg=#a9b7c6 guibg=#505458 gui=NONE
 hi Pmenu        ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
@@ -26,7 +26,7 @@ hi Search       ctermfg=NONE ctermbg=NONE cterm=underline    guifg=NONE    guibg
 hi Directory    ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#9876aa guibg=NONE    gui=italic
 hi Folded       ctermfg=244  ctermbg=235  cterm=NONE         guifg=#808080 guibg=#2b2b2b gui=NONE
 
-hi Normal       ctermfg=251  ctermbg=235  cterm=NONE         guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi Normal       ctermfg=250  ctermbg=235  cterm=NONE         guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 hi Boolean      ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#9876aa guibg=NONE    gui=italic
 hi Character    ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#9876aa guibg=NONE    gui=italic
 hi Comment      ctermfg=244  ctermbg=NONE cterm=NONE         guifg=#808080 guibg=NONE    gui=italic
@@ -44,7 +44,7 @@ hi Function     ctermfg=140  ctermbg=NONE cterm=NONE         guifg=#ffc66d guibg
 hi Identifier   ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Keyword      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Label        ctermfg=251  ctermbg=NONE cterm=NONE         guifg=#a5c25c guibg=NONE    gui=NONE
-hi NonText      ctermfg=250  ctermbg=235  cterm=NONE         guifg=#bfbfbf guibg=#313233 gui=NONE
+hi NonText      ctermfg=235  ctermbg=NONE cterm=NONE         guifg=#bfbfbf guibg=#313233 gui=NONE
 hi Number       ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#6897bb guibg=NONE    gui=NONE
 hi Operator     ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi PreProc      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
