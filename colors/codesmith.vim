@@ -55,10 +55,10 @@ hi StorageClass ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg
 hi String       ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#a5c25c guibg=NONE    gui=NONE
 hi Tag          ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
 hi Title        ctermfg=251  ctermbg=NONE cterm=bold         guifg=#a9b7c6 guibg=NONE    gui=bold
-hi Todo         ctermfg=011  ctermbg=NONE cterm=NONE         guifg=#808080 guibg=NONE    gui=inverse,bold,italic
+hi Todo         ctermfg=226  ctermbg=NONE cterm=NONE         guifg=#808080 guibg=NONE    gui=inverse,bold,italic
 hi Type         ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
 hi Underlined   ctermfg=NONE ctermbg=NONE cterm=underline    guifg=NONE    guibg=NONE    gui=underline
-hi Annotation   ctermfg=011  ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
+hi Annotation   ctermfg=226  ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
 
 " Language-specific highlighting
 
