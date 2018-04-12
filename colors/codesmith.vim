@@ -10,13 +10,13 @@ endif
 let g:colors_name = "Codesmith"
 
 hi Cursor       ctermfg=235  ctermbg=250  cterm=NONE         guifg=#2b2b2b guibg=#bbbbbb gui=NONE
-hi Visual       ctermfg=NONE ctermbg=24   cterm=NONE         guifg=NONE    guibg=#214283 gui=NONE
-hi CursorLine   ctermfg=NONE ctermbg=237  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=237  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
-hi ColorColumn  ctermfg=NONE ctermbg=237  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
+hi Visual       ctermfg=NONE ctermbg=238  cterm=NONE         guifg=NONE    guibg=#444444 gui=NONE
+hi CursorLine   ctermfg=NONE ctermbg=236  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=236  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
+hi ColorColumn  ctermfg=NONE ctermbg=236  cterm=NONE         guifg=NONE    guibg=#38393b gui=NONE
 hi LineNr       ctermfg=244  ctermbg=NONE cterm=NONE         guifg=#6a7179 guibg=#38393b gui=NONE
 hi VertSplit    ctermfg=59   ctermbg=59   cterm=NONE         guifg=#505458 guibg=#505458 gui=NONE
-hi MatchParen   ctermfg=185  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=underline
+hi MatchParen   ctermfg=226  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=underline
 hi StatusLine   ctermfg=251  ctermbg=59   cterm=bold         guifg=#a9b7c6 guibg=#505458 gui=bold
 hi StatusLineNC ctermfg=251  ctermbg=59   cterm=NONE         guifg=#a9b7c6 guibg=#505458 gui=NONE
 hi Pmenu        ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
@@ -49,7 +49,7 @@ hi Number       ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#6897bb guibg
 hi Operator     ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi PreProc      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Special      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
-hi SpecialKey   ctermfg=250  ctermbg=237  cterm=NONE         guifg=#bfbfbf guibg=#38393b gui=NONE
+hi SpecialKey   ctermfg=250  ctermbg=236  cterm=NONE         guifg=#bfbfbf guibg=#38393b gui=NONE
 hi Statement    ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi StorageClass ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi String       ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#a5c25c guibg=NONE    gui=NONE
@@ -62,26 +62,4 @@ hi Annotation   ctermfg=226  ctermbg=NONE cterm=NONE         guifg=NONE    guibg
 
 " Language-specific highlighting
 
-hi htmlTag                      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
-hi htmlEndTag                   ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
-hi htmlTagName                  ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
-hi htmlArg                      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
-hi htmlSpecialChar              ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#9876aa guibg=NONE    gui=italic
-
-hi javaScriptFunction           ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
-hi javaScriptRailsFunction      ctermfg=59   ctermbg=NONE cterm=bold         guifg=#3c4c72 guibg=NONE    gui=bold
-hi javaScriptBraces             ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
-
-hi yamlKey                      ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
-hi yamlAnchor                   ctermfg=66   ctermbg=NONE cterm=NONE         guifg=#318495 guibg=NONE    gui=NONE
-hi yamlAlias                    ctermfg=66   ctermbg=NONE cterm=NONE         guifg=#318495 guibg=NONE    gui=NONE
-hi yamlDocumentHeader           ctermfg=NONE ctermbg=235  cterm=NONE         guifg=NONE    guibg=#292929 gui=NONE
-
-hi cssURL                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
-hi cssFunctionName              ctermfg=140  ctermbg=NONE cterm=bold         guifg=#3c4c72 guibg=NONE    gui=bold
-hi cssColor                     ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#9876aa guibg=NONE    gui=italic
-hi cssPseudoClassId             ctermfg=189  ctermbg=NONE cterm=NONE         guifg=#d0d0ff guibg=NONE    gui=NONE
-hi cssClassName                 ctermfg=189  ctermbg=NONE cterm=NONE         guifg=#d0d0ff guibg=NONE    gui=NONE
-hi cssValueLength               ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#6897bb guibg=NONE    gui=NONE
-hi cssCommonAttr                ctermfg=28   ctermbg=NONE cterm=bold         guifg=#06960e guibg=NONE    gui=bold
-hi cssBraces                    ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
+hi clojureParen ctermfg=244
