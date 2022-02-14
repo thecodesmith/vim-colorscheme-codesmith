@@ -45,7 +45,7 @@ hi Identifier   ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg
 hi Keyword      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Label        ctermfg=251  ctermbg=NONE cterm=NONE         guifg=#a5c25c guibg=NONE    gui=NONE
 hi NonText      ctermfg=235  ctermbg=NONE cterm=NONE         guifg=#bfbfbf guibg=#313233 gui=NONE
-hi Number       ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#6897bb guibg=NONE    gui=NONE
+hi Number       ctermfg=74   ctermbg=NONE cterm=NONE         guifg=#6897bb guibg=NONE    gui=NONE
 hi Operator     ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi PreProc      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Special      ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
@@ -63,3 +63,6 @@ hi Annotation   ctermfg=226  ctermbg=NONE cterm=NONE         guifg=NONE    guibg
 " Language-specific highlighting
 
 hi clojureParen ctermfg=244
+hi yamlBlockMappingKey ctermfg=250
+hi yamlPlainScalar ctermfg=107
+hi yamlKeyValueDelimiter ctermfg=255
