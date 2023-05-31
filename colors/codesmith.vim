@@ -33,8 +33,8 @@ hi Comment      ctermfg=244  ctermbg=NONE cterm=NONE         guifg=#808080 guibg
 hi Conditional  ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
 hi Constant     ctermfg=67   ctermbg=NONE cterm=NONE         guifg=#9876aa guibg=NONE    gui=italic
 hi Define       ctermfg=172  ctermbg=NONE cterm=NONE         guifg=#cc7832 guibg=NONE    gui=NONE
-hi DiffAdd      ctermfg=251  ctermbg=64   cterm=bold         guifg=#a9b7c6 guibg=#47840d gui=bold
-hi DiffDelete   ctermfg=88   ctermbg=NONE cterm=NONE         guifg=#8c0909 guibg=NONE    gui=NONE
+hi DiffAdd      ctermfg=107  ctermbg=64   cterm=bold         guifg=#a9b7c6 guibg=#47840d gui=bold
+hi DiffDelete   ctermfg=107   ctermbg=NONE cterm=NONE         guifg=#8c0909 guibg=NONE    gui=NONE
 hi DiffChange   ctermfg=251  ctermbg=23   cterm=NONE         guifg=#a9b7c6 guibg=#263b59 gui=NONE
 hi DiffText     ctermfg=251  ctermbg=24   cterm=bold         guifg=#a9b7c6 guibg=#204a87 gui=bold
 hi ErrorMsg     ctermfg=15   ctermbg=88   cterm=NONE         guifg=#ffffff guibg=#990000 gui=NONE
